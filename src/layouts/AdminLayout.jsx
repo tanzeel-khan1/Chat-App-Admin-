@@ -18,7 +18,7 @@ import { Outlet } from "react-router-dom";
 
 const AdminLayout = () => {
   return (
-    <div className="min-h-screen flex flex-col md:flex-row">
+    <div className="min-h-screen bg-custom-gradient flex flex-col md:flex-row">
       {/* Sidebar */}
       <Sidebar />
 
